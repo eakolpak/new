@@ -35,6 +35,10 @@
 			$circle = new CircleClass();
 			$circle->Draw();   
 		?>
-		
+		<h1>Домашняя работа</h1>
+		<?php
+			$greencircle = new drawing\GreenCircleClass(100, 100, 100, 100);
+			$redbox = new main\RedBoxClass(50, 50, 150, 150);
+		?>
 	</body>
 </html>
