@@ -36,7 +36,6 @@ class GreenCircleClass extends DrawingClass
 		$this->y1 = $y1;
 		$this->x2 = $x2;
 		$this->y2 = $y2;
-		//print "<a href='greencircle.php?a=$x1&b=$y1&c=$x2&d=$y2'>Синий круг</a>";
 		print "<img src='greencircle.php?a=$x1&b=$y1&c=$x2&d=$y2'>";
 	}
 
